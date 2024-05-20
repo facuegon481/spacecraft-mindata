@@ -16,9 +16,9 @@ This repository presents a challenge aimed at creating a CRUD (Create, Read, Upd
 2. Enter the cloned project directory:
    ```bash
    cd <your-cloned-project-directory>
-3. Build and .jar:
+3. Build and Create .jar:
    ```bash
-   mvn package
+   .\mvnw.cmd package
 4. Build the Docker image and wait until the process finishes:
    ```bash
     docker build -t spacecraftapi .
